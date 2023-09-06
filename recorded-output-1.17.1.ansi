@@ -1,0 +1,137 @@
+Script started on Wed Sep  6 11:52:58 2023
+[0m[49m[39m[27m[24m
+[K
+[1A7[0m[49m[39m]133;A[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/Developer/research/[1m[38;5;254m[44m[38;5;255mUnitTestUdfIssue[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[49m[34m[0m[34m[49m[39m [0m[49m[39m]133;B                                                                                                                                                                                             [0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 11:52:58[0m[30m[47m[47m[30m [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[0m[49m[39m[27m[24m
+[47C[?2004h[?25l8[0m[49m[39m[27m[24m[J]1337;RemoteHost=USERID@HOSTNAME]1337;CurrentDir=/Users/USERID/Developer/research/UnitTestUdfIssue]1337;ShellIntegrationVersion=12;shell=zsh]2;USERID@HOSTNAME:~/Developer/research/UnitTestUdfIssue]1;..tTestUdfIssue]7;file://HOSTNAME/Users/USERID/Developer/research/UnitTestUdfIssue\]133;D;0]1337;RemoteHost=USERID@HOSTNAME]1337;CurrentDir=/Users/USERID/Developer/research/UnitTestUdfIssue[0m[38;5;254m[49m[39m[27m[24m[1m[7m%[27m[1m[0m
+[0m[49m[39m[27m[24m[K
+[0m[27m[24m[J[0m[49m[39m]133;A[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/Developer/research/[1m[38;5;254m[44m[38;5;255mUnitTestUdfIssue[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m  [30m main [30m+9 [30m!6[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m]133;B[K[172C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 11:52:58[0m[30m[47m[47m[30m [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[189D[?1h=[?12l[?25h[?2004hm[1m[31mm[0m[39m[1m[31mm[0m[39m[90mvn clean install -Dflink.version=1.16.2[39m[39D[1m[31mm[1m[31mv[0m[39m[0m[32mm[0m[32mv[39m[32mm[32mv[32mn[39m[39m [39mc[39ml[39me[39ma[39mn[39m [39mi[39mn[39ms[39mt[39ma[39ml[39ml[39m [39m-[39mD[39mf[39ml[39mi[39mn[39mk[39m.[39mv[39me[39mr[39ms[39mi[39mo[39mn[39m=[39m1[39m.[39m1[39m6[39m.[39m27.1 -Djacoco.skip=false     [90mfalse[39m     [39m [39m [39m [39m [39m [10D[90mskip=false[39m[10D[8D        [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [18D[90mDjacoco.skip=false[39m[18D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[90m-Djacoco.skip=false[39m[19D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[90m -Djacoco.skip=false[39m[20D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [20D[?1l>[?2004l[?25l
+
+[0m[27m[24m[J]133;A[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m ]133;B[32mmvn[39m clean install -Dflink.version=1.17.1[K[?12l[?25h
+
+]2;mvn clean install -Dflink.version=1.17.1]1;mvn]133;C;[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mnl.ing.issue:unit-test-udf-issue[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding unit-test-udf-issue 1.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/USERID/Developer/research/UnitTestUdfIssue/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.10:prepare-agent[m [1m(default)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/Users/USERID/.m2/repository/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10-runtime.jar=destfile=/Users/USERID/Developer/research/UnitTestUdfIssue/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.0:resources[m [1m(default-resources)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:compile[m [1m(default-compile)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /Users/USERID/Developer/research/UnitTestUdfIssue/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.0:testResources[m [1m(default-testResources)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/USERID/Developer/research/UnitTestUdfIssue/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /Users/USERID/Developer/research/UnitTestUdfIssue/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running nl.ing.issue.[1mArrayAGGTest[m
+[[1;31mERROR[m] [1;31mTests [0;1mrun: [0;1m1[m, Failures: 0, [1;31mErrors: [0;1;31m1[m, Skipped: 0, Time elapsed: 6.856 s[1;31m <<< FAILURE![m -- in nl.ing.issue.[1mArrayAGGTest[m
+[[1;31mERROR[m] nl.ing.issue.ArrayAGGTest.stringAggregation -- Time elapsed: 3.774 s <<< ERROR!
+java.lang.IllegalArgumentException: fromIndex(2) > toIndex(0)
+	at java.base/java.util.AbstractList.subListRangeCheck(AbstractList.java:509)
+	at java.base/java.util.AbstractList.subList(AbstractList.java:497)
+	at org.apache.calcite.rel.metadata.janino.CacheGeneratorUtil$CacheKeyStrategy$1.safeArgList(CacheGeneratorUtil.java:213)
+	at org.apache.calcite.rel.metadata.janino.CacheGeneratorUtil$CacheKeyStrategy$1.cacheKeyBlock(CacheGeneratorUtil.java:205)
+	at org.apache.calcite.rel.metadata.janino.CacheGeneratorUtil.cachedMethod(CacheGeneratorUtil.java:68)
+	at org.apache.calcite.rel.metadata.janino.RelMetadataHandlerGeneratorUtil.generateHandler(RelMetadataHandlerGeneratorUtil.java:121)
+	at org.apache.calcite.rel.metadata.JaninoRelMetadataProvider.generateCompileAndInstantiate(JaninoRelMetadataProvider.java:138)
+	at org.apache.calcite.rel.metadata.JaninoRelMetadataProvider.lambda$static$0(JaninoRelMetadataProvider.java:73)
+	at org.apache.flink.calcite.shaded.com.google.common.cache.CacheLoader$FunctionToCacheLoader.load(CacheLoader.java:165)
+	at org.apache.flink.calcite.shaded.com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529)
+	at org.apache.flink.calcite.shaded.com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278)
+	at org.apache.flink.calcite.shaded.com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155)
+	at org.apache.flink.calcite.shaded.com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045)
+	at org.apache.flink.calcite.shaded.com.google.common.cache.LocalCache.get(LocalCache.java:3951)
+	at org.apache.flink.calcite.shaded.com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:3974)
+	at org.apache.flink.calcite.shaded.com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:4958)
+	at org.apache.calcite.rel.metadata.JaninoRelMetadataProvider.revise(JaninoRelMetadataProvider.java:197)
+	at org.apache.calcite.rel.metadata.RelMetadataQueryBase.revise(RelMetadataQueryBase.java:118)
+	at org.apache.calcite.rel.metadata.RelMetadataQuery.getPulledUpPredicates(RelMetadataQuery.java:844)
+	at org.apache.calcite.rel.rules.ReduceExpressionsRule$ProjectReduceExpressionsRule.onMatch(ReduceExpressionsRule.java:307)
+	at org.apache.calcite.plan.AbstractRelOptPlanner.fireRule(AbstractRelOptPlanner.java:337)
+	at org.apache.calcite.plan.hep.HepPlanner.applyRule(HepPlanner.java:565)
+	at org.apache.calcite.plan.hep.HepPlanner.applyRules(HepPlanner.java:428)
+	at org.apache.calcite.plan.hep.HepPlanner.executeInstruction(HepPlanner.java:251)
+	at org.apache.calcite.plan.hep.HepInstruction$RuleInstance.execute(HepInstruction.java:130)
+	at org.apache.calcite.plan.hep.HepPlanner.executeProgram(HepPlanner.java:208)
+	at org.apache.calcite.plan.hep.HepPlanner.findBestExp(HepPlanner.java:195)
+	at org.apache.flink.table.planner.plan.optimize.program.FlinkHepProgram.optimize(FlinkHepProgram.scala:64)
+	at org.apache.flink.table.planner.plan.optimize.program.FlinkHepRuleSetProgram.optimize(FlinkHepRuleSetProgram.scala:78)
+	at org.apache.flink.table.planner.plan.optimize.program.FlinkChainedProgram.$anonfun$optimize$1(FlinkChainedProgram.scala:59)
+	at scala.collection.TraversableOnce.$anonfun$foldLeft$1(TraversableOnce.scala:156)
+	at scala.collection.TraversableOnce.$anonfun$foldLeft$1$adapted(TraversableOnce.scala:156)
+	at scala.collection.Iterator.foreach(Iterator.scala:937)
+	at scala.collection.Iterator.foreach$(Iterator.scala:937)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1425)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:70)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:69)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)
+	at scala.collection.TraversableOnce.foldLeft(TraversableOnce.scala:156)
+	at scala.collection.TraversableOnce.foldLeft$(TraversableOnce.scala:154)
+	at scala.collection.AbstractTraversable.foldLeft(Traversable.scala:104)
+	at org.apache.flink.table.planner.plan.optimize.program.FlinkChainedProgram.optimize(FlinkChainedProgram.scala:55)
+	at org.apache.flink.table.planner.plan.optimize.StreamCommonSubGraphBasedOptimizer.optimizeTree(StreamCommonSubGraphBasedOptimizer.scala:176)
+	at org.apache.flink.table.planner.plan.optimize.StreamCommonSubGraphBasedOptimizer.doOptimize(StreamCommonSubGraphBasedOptimizer.scala:83)
+	at org.apache.flink.table.planner.plan.optimize.CommonSubGraphBasedOptimizer.optimize(CommonSubGraphBasedOptimizer.scala:87)
+	at org.apache.flink.table.planner.delegation.PlannerBase.optimize(PlannerBase.scala:329)
+	at org.apache.flink.table.planner.delegation.PlannerBase.translate(PlannerBase.scala:195)
+	at org.apache.flink.table.api.internal.TableEnvironmentImpl.translate(TableEnvironmentImpl.java:1803)
+	at org.apache.flink.table.api.internal.TableEnvironmentImpl.executeQueryOperation(TableEnvironmentImpl.java:945)
+	at org.apache.flink.table.api.internal.TableEnvironmentImpl.executeInternal(TableEnvironmentImpl.java:1422)
+	at org.apache.flink.table.api.internal.TableEnvironmentImpl.executeSql(TableEnvironmentImpl.java:765)
+	at nl.ing.issue.ArrayAGGTest.stringAggregation(ArrayAGGTest.java:65)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mErrors: [m
+[[1;31mERROR[m] [1;31m  ArrayAGGTest.stringAggregation:65 » IllegalArgument fromIndex(2) > toIndex(0)[m
+[[1;34mINFO[m] 
+[[1;31mERROR[m] [1;31mTests run: 1, Failures: 0, Errors: 1, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;31mBUILD FAILURE[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  15.753 s
+[[1;34mINFO[m] Finished at: 2023-09-06T11:53:22+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;31mERROR[m] Failed to execute goal [32morg.apache.maven.plugins:maven-surefire-plugin:3.1.2:test[m [1m(default-test)[m on project [36munit-test-udf-issue[m: [1;31m[m
+[[1;31mERROR[m] [1;31m[m
+[[1;31mERROR[m] [1;31mPlease refer to /Users/USERID/Developer/research/UnitTestUdfIssue/target/surefire-reports for the individual test results.[m
+[[1;31mERROR[m] [1;31mPlease refer to dump files (if any exist) [date].dump, [date]-jvmRun[N].dump and [date].dumpstream.[m
+[[1;31mERROR[m] -> [1m[Help 1][m
+[[1;31mERROR[m] 
+[[1;31mERROR[m] To see the full stack trace of the errors, re-run Maven with the [1m-e[m switch.
+[[1;31mERROR[m] Re-run Maven using the [1m-X[m switch to enable full debug logging.
+[[1;31mERROR[m] 
+[[1;31mERROR[m] For more information about the errors and possible solutions, please read the following articles:
+[[1;31mERROR[m] [1m[Help 1][m http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[0m[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                             
+ 
+]2;USERID@HOSTNAME:~/Developer/research/UnitTestUdfIssue]1;..tTestUdfIssue]7;file://HOSTNAME/Users/USERID/Developer/research/UnitTestUdfIssue\]133;D;1]1337;RemoteHost=USERID@HOSTNAME]1337;CurrentDir=/Users/USERID/Developer/research/UnitTestUdfIssue
+[0m[27m[24m[J[0m[49m[39m]133;A[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/Developer/research/[1m[38;5;254m[44m[38;5;255mUnitTestUdfIssue[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m  [30m main [30m+9 [30m!6[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m]133;B[K[162C[0m[49m[31m[0m[31m[41m[33m 1[0m[33m[41m[41m[33m ✘[0m[33m[41m[41m[33m [0m[33m[41m[41m[33m[33m[0m[33m[41m[43m[30m 17s[0m[30m[43m[43m[30m [0m[30m[43m[43m[30m [0m[30m[43m[43m[30m[37m[0m[37m[43m[47m[30m 11:53:22[0m[30m[47m[47m[30m [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[189D[?1h=[?2004he[1m[31me[0m[39m[1m[31me[0m[39m[90mxit[39m[1m[31me[1m[31mx[0m[39m[0m[32me[0m[32mx[39m[32me[32mx[32mi[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[1m[31mi[1m[31mt[0m[39m[0m[32me[0m[32mx[0m[32mi[0m[32mt[39m[?1l>[?2004l[?25l
+
+[0m[27m[24m[J]133;A[0m[49m[27m[24m[38;5;196m❯[0m[38;5;196m[49m[39m[27m[24m ]133;B[32mexit[39m[K[?12l[?25h
+
+]2;exit]1;exit]133;C;
+Script done on Wed Sep  6 11:53:25 2023

@@ -1,0 +1,84 @@
+Script started on Wed Sep  6 11:52:14 2023
+[0m[49m[39m[27m[24m
+[K
+[1A7[0m[49m[39m]133;A[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/Developer/research/[1m[38;5;254m[44m[38;5;255mUnitTestUdfIssue[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[49m[34m[0m[34m[49m[39m [0m[49m[39m]133;B                                                                                                                                                                                             [0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 11:52:15[0m[30m[47m[47m[30m [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[0m[49m[39m[27m[24m
+[47C[?2004hm[?25l8[0m[49m[39m[27m[24m[J]1337;RemoteHost=USERID@HOSTNAME]1337;CurrentDir=/Users/USERID/Developer/research/UnitTestUdfIssue]1337;ShellIntegrationVersion=12;shell=zsh]2;USERID@HOSTNAME:~/Developer/research/UnitTestUdfIssue]1;..tTestUdfIssue]7;file://HOSTNAME/Users/USERID/Developer/research/UnitTestUdfIssue\]133;D;0]1337;RemoteHost=USERID@HOSTNAME]1337;CurrentDir=/Users/USERID/Developer/research/UnitTestUdfIssue[0m[38;5;254m[49m[39m[27m[24m[1m[7m%[27m[1m[0m
+[0m[49m[39m[27m[24m[K
+[0m[27m[24m[J[0m[49m[39m]133;A[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/Developer/research/[1m[38;5;254m[44m[38;5;255mUnitTestUdfIssue[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m  [30m main [30m+9 [30m!5[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m]133;B[K[172C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[37m[0m[37m[40m[47m[30m 11:52:15[0m[30m[47m[47m[30m [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[189D[?1h=[?12l[?25h[?2004hm[1m[31mm[0m[39m[1m[31mm[0m[39m[90mvn clean install -Dflink.version=1.17.1 -Djacoco.skip=false[39m[59D[1m[31mm[1m[31mv[0m[39m[0m[32mm[0m[32mv[39m[32mm[32mv[32mn[39m[39m [39mc[39ml[39me[39ma[39mn[39m [39mi[39mn[39ms[39mt[39ma[39ml[39ml[39m [39m-[39mD[39mf[39ml[39mi[39mn[39mk[39m.[39mv[39me[39mr[39ms[39mi[39mo[39mn[39m=[39m1[39m.[39m1[39m7[39m.[39m1[39m [39m-[39mD[39mj[39ma[39mc[39mo[39mc[39mo[39m.[39ms[39mk[39mi[39mp[39m=[39mf[39ma[39ml[39ms[39metrue [18D                  [19D6.2[?1l>[?2004l[?25l
+
+[0m[27m[24m[J]133;A[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m ]133;B[32mmvn[39m clean install -Dflink.version=1.16.2[K[?12l[?25h
+
+]2;mvn clean install -Dflink.version=1.16.2]1;mvn]133;C;[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m------------------< [0;36mnl.ing.issue:unit-test-udf-issue[0;1m >------------------[m
+[[1;34mINFO[m] [1mBuilding unit-test-udf-issue 1.0-SNAPSHOT[m
+[[1;34mINFO[m]   from pom.xml
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mclean:3.2.0:clean[m [1m(default-clean)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Deleting /Users/USERID/Developer/research/UnitTestUdfIssue/target
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.10:prepare-agent[m [1m(default)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] argLine set to -javaagent:/Users/USERID/.m2/repository/org/jacoco/org.jacoco.agent/0.8.10/org.jacoco.agent-0.8.10-runtime.jar=destfile=/Users/USERID/Developer/research/UnitTestUdfIssue/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.0:resources[m [1m(default-resources)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Copying 0 resource
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:compile[m [1m(default-compile)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /Users/USERID/Developer/research/UnitTestUdfIssue/target/classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mresources:3.3.0:testResources[m [1m(default-testResources)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] skip non existing resourceDirectory /Users/USERID/Developer/research/UnitTestUdfIssue/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mcompiler:3.10.1:testCompile[m [1m(default-testCompile)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Changes detected - recompiling the module!
+[[1;34mINFO[m] Compiling 1 source file to /Users/USERID/Developer/research/UnitTestUdfIssue/target/test-classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32msurefire:3.1.2:test[m [1m(default-test)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Using auto detected provider org.apache.maven.surefire.junitplatform.JUnitPlatformProvider
+[[1;34mINFO[m] 
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m]  T E S T S
+[[1;34mINFO[m] -------------------------------------------------------
+[[1;34mINFO[m] Running nl.ing.issue.[1mArrayAGGTest[m
+[[1;34mINFO[m] [1;32mTests run: [0;1;32m1[m, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.813 s -- in nl.ing.issue.[1mArrayAGGTest[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] Results:
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1;32mTests run: 1, Failures: 0, Errors: 0, Skipped: 0[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.10:report[m [1m(report)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /Users/USERID/Developer/research/UnitTestUdfIssue/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'unit-test-udf-issue' with 3 classes
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjar:3.3.0:jar[m [1m(default-jar)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Building jar: /Users/USERID/Developer/research/UnitTestUdfIssue/target/unit-test-udf-issue-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.10:check[m [1m(jacoco-check)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /Users/USERID/Developer/research/UnitTestUdfIssue/target/jacoco.exec
+[[1;34mINFO[m] Analyzed bundle 'unit-test-udf-issue' with 3 classes
+[[1;34mINFO[m] All coverage checks have been met.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mjacoco:0.8.10:report-aggregate[m [1m(report-aggregate)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Loading execution data file /Users/USERID/Developer/research/UnitTestUdfIssue/target/jacoco.exec
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32minstall:3.1.0:install[m [1m(default-install)[m @ [36munit-test-udf-issue[0;1m ---[m
+[[1;34mINFO[m] Installing /Users/USERID/Developer/research/UnitTestUdfIssue/pom.xml to /Users/USERID/.m2/repository/nl/ing/issue/unit-test-udf-issue/1.0-SNAPSHOT/unit-test-udf-issue-1.0-SNAPSHOT.pom
+[[1;34mINFO[m] Installing /Users/USERID/Developer/research/UnitTestUdfIssue/target/unit-test-udf-issue-1.0-SNAPSHOT.jar to /Users/USERID/.m2/repository/nl/ing/issue/unit-test-udf-issue/1.0-SNAPSHOT/unit-test-udf-issue-1.0-SNAPSHOT.jar
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  15.365 s
+[[1;34mINFO[m] Finished at: 2023-09-06T11:52:37+02:00
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[0m[0m[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                                             
+ 
+]2;USERID@HOSTNAME:~/Developer/research/UnitTestUdfIssue]1;..tTestUdfIssue]7;file://HOSTNAME/Users/USERID/Developer/research/UnitTestUdfIssue\]133;D;0]1337;RemoteHost=USERID@HOSTNAME]1337;CurrentDir=/Users/USERID/Developer/research/UnitTestUdfIssue
+[0m[27m[24m[J[0m[49m[39m]133;A[0m[47m[38;5;232m [0m[38;5;232m[47m[47m[38;5;232m [0m[38;5;232m[47m[44m[37m[0m[37m[44m[44m[38;5;254m  [1m[38;5;254m[44m[38;5;255m~[0m[38;5;255m[44m[44m[38;5;254m/Developer/research/[1m[38;5;254m[44m[38;5;255mUnitTestUdfIssue[0m[38;5;255m[44m[44m[38;5;254m[0m[38;5;254m[44m[44m[38;5;254m [0m[38;5;254m[44m[43m[34m[0m[34m[43m[43m[30m  [30m main [30m+9 [30m!5[0m[30m[43m[43m[30m [0m[30m[43m[49m[33m[0m[33m[49m[39m [0m[49m[39m]133;B[K[164C[0m[49m[30m[0m[30m[40m[32m [0m[32m[40m[40m[32m✔[0m[32m[40m[40m[32m [0m[32m[40m[40m[32m[33m[0m[33m[40m[43m[30m 17s[0m[30m[43m[43m[30m [0m[30m[43m[43m[30m [0m[30m[43m[43m[30m[37m[0m[37m[43m[47m[30m 11:52:37[0m[30m[47m[47m[30m [0m[30m[47m[47m[30m [0m[30m[47m[49m[39m[189D[?1h=[?2004he[1m[31me[0m[39m[1m[31me[0m[39m[90mxit[39m[1m[31me[1m[31mx[0m[39m[0m[32me[0m[32mx[39m[32me[32mx[32mi[39m[1m[31me[1m[31mx[1m[31mi[0m[39m[1m[31mi[1m[31mt[0m[39m[0m[32me[0m[32mx[0m[32mi[0m[32mt[39m[?1l>[?2004l[?25l
+
+[0m[27m[24m[J]133;A[0m[49m[27m[24m[38;5;76m❯[0m[38;5;76m[49m[39m[27m[24m ]133;B[32mexit[39m[K[?12l[?25h
+
+]2;exit]1;exit]133;C;
+Script done on Wed Sep  6 11:52:40 2023
